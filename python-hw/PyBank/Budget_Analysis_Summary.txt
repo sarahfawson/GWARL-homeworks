@@ -1,0 +1,6 @@
+Summary: 
+Total months: 86
+Total profits or losses: 38382578
+Average change in profits/losses between months: 7895.282352941176
+Greatest increase in profits: 1926159
+Greatest decrease in losses: -2196167

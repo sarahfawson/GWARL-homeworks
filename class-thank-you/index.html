@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>The Great Dartanion</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- bootstrap for testimonials -->
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+  <link href="css/agency.css" rel="stylesheet">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="img/team/Dart.png">
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="margin: 0px">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Dartlings</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#learnings">Learnings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#memories">Memories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="col-sm-5 text-center">
+      </div>
+      <div class="col-sm-7 text-center">
+        <div class="intro-text">
+          <!-- <div class="intro-lead-in">The Great</div>
+          <div class="intro-heading text-uppercase">Dartanion</div> -->
+          <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Check it out</a> -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="learnings">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">You Taught Us a Few Things</h2>
+          <h3 class="section-subheading text-muted">In the 6 months and nearly 300 hours that we've been together in this 
+            Data Analytics Bootcamp, you taught us a thing or two about coding, optimism, and appropriate emoji usage. Here are 
+          some highlights from the curriculum.</h3>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a><img src="img/JavaScript.png" width=180px alt="JavaScript icon" class="img-fluid"></a>
+          <h4 class="service-heading">JavaScript</h4>
+          <p class="text-muted">Okay, some of us love it. But it gets a little 
+            <a target ="#" href="https://media.giphy.com/media/W50xKz9RM5FPa/giphy.gif">tricky</a>. Those cruel, cruel curly brackets.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <a"><img src="img/Sql.png" width=180px alt="SQL icon" class="img-fluid"></a>
+          <h4 class="service-heading">SQL</h4>
+          <p class="text-muted">Select * From Everything.</p>
+        </div>
+        <div class="col-md-4">
+          <a><img src="img/GitHub.png" width=180px alt="Github icon" class="img-fluid"></a>
+          <h4 class="service-heading">All Things Git</h4>
+          <p class="text-muted">Github, Gitlab, Git bash, Git add, Git commit, Git push, 'oh sh*t what happened in my Git commit'...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Python -->
+  <section class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Our favorite language?</h2>
+          <h3 class="section-subheading text-muted">We took a poll, and you probably won't be surprised.</h3>
+        </div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6 text-center">
+          <img class="img-responsive center-block" id="bigpic" src="bigpic" style="display:none;" />
+          <button onclick="picture()">Find Out</button>
+        </div>
+        <div class="col-lg-3"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio Grid -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase" id="memories">We Had Some Great Memories</h2>
+          <h3 class="section-subheading text-muted">Yep, we got a lot of them on camera.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <!-- first photo -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/happyhour-hug.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Happy Hour</h4>
+            <p class="text-muted">Celebrating after project 2</p>
+          </div>
+        </div>
+        <!-- second photo -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/orchid.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>The Orchid</h4>
+            <p class="text-muted">Teams have their ups and downs...and then they make up for them with presents.</p>
+          </div>
+        </div>
+
+        <!-- third photo -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/aaron.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Project Work</h4>
+            <p class="text-muted">Aaron is over it!</p>
+          </div>
+        </div>
+        <!-- fourth photo -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/tom-alpesh.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Project Work</h4>
+            <p class="text-muted">Crunch time for Tom and Alpesh</p>
+          </div>
+        </div>
+        <!-- fifth photo -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/karaoke-dancing.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Karaoke Time</h4>
+            <p class="text-muted">After project presentations</p>
+          </div>
+        </div>
+        <!-- sixth photo -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/dreamteam.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Project Team</h4>
+            <p class="text-muted">Team Morbid Curiosity at Punch Bowl Social</p>
+          </div>
+        </div>
+        <!-- seventh photo -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/rockwall.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Climbing After Class</h4>
+            <p class="text-muted">Is there anything Dart can't do?</p>
+          </div>
+        </div>
+        <!-- eighth photo -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/classtime.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Class Time</h4>
+            <p class="text-muted">Working hard in class</p>
+          </div>
+        </div>
+        <!-- ninth photo -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/dartfloor.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Dart broke down</h4>
+            <p class="text-muted">Helping with the final projects late into the night. 
+              But this is nothing like the time he tried to teach class right after his 
+              appendectomy...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Team -->
+  <section class="bg-light" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">
+            <img height=100px src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif">
+            The Team That Made It Happen
+            <img height=100px src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif">
+          </h2>
+          <h3 class="section-subheading text-muted">This is the Dartling Empire. Their tireless work helped us all get through the program!</h3>
+        </div>
+      </div>
+      <!-- <div class = "row">
+        <div class ="col-lg-12 ml-auto">
+          <div class= "row text-center" style="align-content:center">
+            <img height=100px src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif">
+            <img height=100px src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif">
+            <img height=100px src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif">
+            <div style="margin:20px" class="spinner-jisan"></div>
+            <div style="margin:20px" class="spinner-dart"></div>
+            <div style="margin:20px" class="spinner-rodolfo"></div>
+            <img height=100px src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif">
+            <img height=100px src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif">
+            <img height=100px src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif">
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/Jisan.png" alt="">
+            <h4>Jisan Zaman</h4>
+            <p class="text-muted">Fullstack Software Engineer and Senior Consultant</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a target ="#" href="https://twitter.com/jisanzaman">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target ="#" href="https://www.facebook.com/superjisan">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target ="#" href="https://www.linkedin.com/in/jisan-zaman-07790333/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/Dart.png" alt="">
+            <h4>Dartanion Williams</h4>
+            <p class="text-muted">Technology Leader, Data Expert, Applied Researcher, and Public Policy Professional</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a target ="#" href="https://twitter.com/IAmDartanion">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target ="#" href="https://www.facebook.com/TheGreatDartanion">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target ="#" href="https://www.linkedin.com/in/dartanion/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/Rodolfo.png" alt="">
+            <h4>Rodolfo Fiorini</h4>
+            <p class="text-muted">Data Analyst and Senior Consultant</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a target ="#" href="https://media.giphy.com/media/xTiN0L7EW5trfOvEk0/giphy.gif">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target ="#" href="https://media.giphy.com/media/xT9IgFWN8DXgWvqvBK/giphy.gif">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target ="#" href="https://www.linkedin.com/in/rodolfo-fiorini-b5672a52/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">We have a few things to say</h2>
+          <h3 class="section-subheading text-muted">To thank you.</h3>
+        </div>
+      </div>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width slides/quotes -->
+        <div class="mySlides">
+          <q>"Dart is the type of guy another man would have  man crush on... The Man, The Myth, The Legend, 
+            probably the greatest instructor of all time! Glad to have gone through this journey with him 
+            and gain another friend in the process! Thanks for your passion and consistency in ensuring we 
+            keep getting out of our comfort zones! Not to mention his side kicks Jammin Jisan and Rowdy 
+            Rodolfo for going above and beyond! Amazing Team!""
+            </q>
+          <p class="author">- Alpesh Patel</p>
+        </div>
+        <div class="mySlides">
+          <q>"Thank you Dart for being the absolute best instructor ever! Your compassion, enthusiasm, 
+            motivation and expertise are so inspiring, and I feel so grateful to have been your student."</q>
+          <p class="author">- Hannah Barker</p>
+        </div>
+        <div class="mySlides">
+          <q>"As I watch the clock roll past 9:30 (and because I don't have a train to catch), I'm inspired 
+            by how passionate Dart is about teaching us and shows why he's The Great Dart."</q>
+          <p class="author">- Tom Dirienzo</p>
+        </div>
+        <div class="mySlides">
+          <q>"Dartanion is an enigma. His energy and passion is bound to leave an impression on everyone 
+            he meets. Thanks for everything!"</q>
+          <p class="author">- Alyza Wiener</p>
+        </div>
+        <div class="mySlides">
+          <q>"This class has been incredible, out of the ordinary, and so helpful for me. Dartanion is such 
+            a joy to be around and it's been a pleasure to learn from him, Jisan and Rodolfo for 6 months. I 
+            can't believe I'm saying this but I'm going to miss coming to class!!"</q>
+          <p class="author">- Sarah Fawson</p>
+        </div>
+        <div class="mySlides">
+          <q>"Dart is one of the most enthusiastic teachers I've ever had. It's hard not to get excited 
+            about learning when he's teaching."</q>
+          <p class="author">- Aaron Woo</p>
+        </div>
+        <div class="mySlides">
+          <q><img class="img-fluid center-block" src="img/paul-cat.jpg">
+          </q>
+          <p class="author">- Paul Westfall</p>
+        </div>
+        <div class="mySlides">
+          <q>"Dartanion is truly one of the best instructors I've ever had the pleasure of learning from 
+            in my college career. I enrolled in The George Washington University's Data Analytics and 
+            Visualization course last year and didn't even know who my instructor was going to be. Thank 
+            goodness it ended up being Dart because I cannot imagine anyone else teaching this subject 
+            with as much passion and excitement as he does in each class. He truly cares about his 
+            students and does all he can to make sure you understand the classroom material. Any higher 
+            education organization would be lucky to have Dart as an instructor."</q>
+          <p class="author">- Reena Desai</p>
+        </div>
+        <div class="mySlides">
+          <q>"This has been the toughest 6 months of my life, but was made much more manageable due to 
+            being taught by an individual passionate about the subject."</q>
+          <p class="author">- Jade Belton</p>
+        </div>
+        <div class="mySlides">
+          <q>“Looking back 6 months ago, I had no idea what to expect from this class. I expected it 
+            to be challenging, but I would have never imagined meeting a teacher who is so passionate, 
+            personable, and thoroughly committed to our learning. Dart - we could not have asked for a 
+            better leader and instructor. I will always remember the joy and energy you brought to our 
+            class!”</q>
+          <p class="author">- Daniel Kim</p>
+        </div>
+        <div class="mySlides">
+          <q>"Dart has been very instrumental in my life, he is the most patient, kind and resourceful 
+            instructor I have encountered. The past 6 months have been crazy but Dart has been present 
+            throughout this journey. He builds real relationships with each and everyone in this class 
+            and truly wants to see each person win. You will always be a hero for me. Thank you for 
+            all you do."</q>
+          <p class="author">- Deborah Aina</p>
+        </div>
+        <div class="mySlides">
+          <q>"I never would have imagined that my bootcamp instructor would be one of the best instructors 
+            I've had the pleasure of learning from in my entire life. Dartanion is truly an inspiration 
+            and his ability to impart knowledge to others is second to none. The bootcamp may be over, 
+            but I will always remember how Dart challenged our class and use that as a voice of 
+            motivation when I face adversity in the future."
+            </q>
+          <p class="author">- Connor Vergara</p>
+        </div>
+        <div class="mySlides">
+          <q>"Dart is one of the best teachers I’ve ever had! He knows his stuff and brought an incredible 
+            energy to every class that made the bootcamp super engaging and fun! Dart made the class a 
+            truly memorable experience."
+            </q>
+          <p class="author">- Tim St. Onge</p>
+        </div>
+        <div class="mySlides">
+          <q>"Dartanion, you are by far the most enthusiatic, caring, and dedicated instructors I have 
+            ever known.  You worked with us through thick and thin; you made sure that none of us were 
+            left behind, and you never, ever lost your sense of humor!  Thank you for making the journey 
+            fun and valuable! You are greatly appreciated!!
+            <br><br>
+            To all of my fellow coding family members (including TAs):  I enjoyed meeting and working 
+            with each and everyone one of you.  Best wishes in your future endeavors. You are all coding 
+            ninjas!!"
+            </q>
+          <p class="author">- Damita Zweiback</p>
+        </div>
+        <!-- Next/prev buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <!-- Dots/bullets/indicators -->
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span> 
+        <span class="dot" onclick="currentSlide(7)"></span> 
+        <span class="dot" onclick="currentSlide(8)"></span> 
+        <span class="dot" onclick="currentSlide(9)"></span> 
+        <span class="dot" onclick="currentSlide(10)"></span> 
+        <span class="dot" onclick="currentSlide(11)"></span> 
+        <span class="dot" onclick="currentSlide(12)"></span> 
+        <span class="dot" onclick="currentSlide(13)"></span> 
+        <span class="dot" onclick="currentSlide(14)"></span> 
+      </div>
+    </div>
+  </section> 
+
+  <!-- Clients -->
+  <!-- <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; GW Data Analytics & Visualization Class 2019</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a target = "#" href="https://media.giphy.com/media/TmqTiSVtBFrZC/giphy.gif">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target = "#" href="https://media.giphy.com/media/cPNXOm7ln8HwK7UcbV/giphy.gif">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target = "#" href="https://media.giphy.com/media/5hkya8RZAYgR7a2Hda/giphy.gif">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a target ="#" href="https://media.giphy.com/media/e7yNPQmGUozyU/giphy.gif">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a target ="#" href="https://media.giphy.com/media/ZTwVNm5aH7oOc/giphy.gif">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Modal 1 -->
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Threads</li>
+                  <li>Category: Illustration</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Modal 2 -->
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Explore</li>
+                  <li>Category: Graphic Design</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Modal 3 -->
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Finish</li>
+                  <li>Category: Identity</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Modal 4 -->
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Lines</li>
+                  <li>Category: Branding</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Modal 5 -->
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Southwest</li>
+                  <li>Category: Website Design</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Modal 6 -->
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Window</li>
+                  <li>Category: Photography</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+  <!-- scripts for the testimonials -->
+  <script src="js/testimonials.js"></script>
+
+  <!-- script for the python pop out button and pic -->
+  <script type="text/javascript">
+    function picture(){ 
+      var pic = "img/python-logo.png"
+      document.getElementById('bigpic').src = pic.replace('90x90', '225x225');
+      document.getElementById('bigpic').style.display='block';
+    }
+  </script> 
+
+</body>
+
+</html>
